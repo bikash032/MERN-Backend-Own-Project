@@ -1,0 +1,23 @@
+{
+  "name": "mern-backend-own-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bikash032/MERN-Backend-Own-Project.git"
+  },
+  "author": "Bikash Bishokarma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bikash032/MERN-Backend-Own-Project/issues"
+  },
+  "homepage": "https://github.com/bikash032/MERN-Backend-Own-Project#readme",
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
