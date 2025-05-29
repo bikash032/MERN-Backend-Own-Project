@@ -7,7 +7,7 @@ class AuthController{
         }        
 
         res.json({
-            data:data,
+            data:[{file},{data}],
             message:"User is register successfully",
             status:"OK",
             options:null
