@@ -26,7 +26,6 @@ const uploader = () => {
         maxFileSize = 10 * 1024 * 1024
     }
 
-
     const validateFileType = (req, file, cb) => {
 
         const fileExt = file.originalname.split(".").pop()
