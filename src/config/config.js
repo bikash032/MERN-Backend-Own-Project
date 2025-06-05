@@ -13,4 +13,9 @@ const SMTPConfig = {
     password: process.env.SMTP_PASSWORD,
     from: process.env.SMTP_FORM_ADDRESS 
 }
-module.exports = {CLoudinaryConfig, SMTPConfig}
+
+const mogoDBConfig = {
+    url: process.env.MONGODB_URL,
+    dbName: process.env.MONGODB_NAME
+}
+module.exports = {CLoudinaryConfig, SMTPConfig, mogoDBConfig}
