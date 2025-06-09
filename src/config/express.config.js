@@ -36,6 +36,13 @@ let statuscode=error.code || 500;
 let details=error.details || null;
 let msg=error.message || "Internal server error.....";
 let status =error.status || "SERVER_ERROR"
+
+
+
+if(+error.name==="mogoServerError"){
+    statuscode=422,
+    msg=
+}
     res.status(statuscode).json({
         error:details,
         message:msg,

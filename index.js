@@ -7,13 +7,8 @@ const PORT=9006
 httpServer.listen(PORT,HOST,()=>{
     console.log(`http://${HOST}:${PORT}`);
     console.log(("Server is successfully listining to port: "+PORT));
-    console.log("Please Press CTRL+C to exit........");
-    
-    
-    
+    console.log("Please Press CTRL+C to exit........");    
 })
-
-
 //IIFE   Immediately Invoked Function Expression
 // (() => {
 //     console.log("This is an Immediately Invoked Function Expression (IIFE).");

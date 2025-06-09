@@ -12,4 +12,4 @@ const UserStatus={
     ACTIVE:"active",
     INACTIVE:"inactive"
 }
-module.exports={UserRole,Gender,UserStatus}
+module.exports={UserRole,Gender,UserStatus}``
